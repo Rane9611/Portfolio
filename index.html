@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedant Rane — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Vedant Rane</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="avatar">
+    <div class="profile">
+    <img src="pic.jpeg" alt="profile">
+    </div>
+  </div>
+  <h1>I'm <span>Vedant Rane</span> 👋</h1>
+  <p>A beginner developer passionate about learning and building cool things with code.</p>
+  <a href="#projects" class="btn">See My Work</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade-in">
+  <h2 class="section-title">About <span>Me</span></h2>
+  <p>Hi, I’m Vedant. I’m a beginner developer learning Python and web technologies, and I enjoy creating simple projects that turn ideas into reality.</p>
+  <p>I'm eager to grow my skills, take on new challenges, and learn from every project I build.</p>
+  <div class="skills">
+    <span class="skill-badge">HTML</span>
+    <span class="skill-badge">CSS</span>
+    <span class="skill-badge">JavaScript</span>
+    <span class="skill-badge">Python</span>
+    <span class="skill-badge">SQL</span>
+    <span class="skill-badge">Git Hub</span>
+    <span class="skill-badge">VS Code</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="section-title fade-in">My <span>Projects</span></h2>
+  <div class="cards">
+    <div class="card fade-in">
+      <div class="card-icon">🌦️</div>
+      <h3>Weather App</h3>
+      <p>Shows current weather for any city using a public API.</p>
+      <div class="card-tags">
+        <span class="card-tag">HTML</span>
+        <span class="card-tag">CSS</span>
+        <span class="card-tag">JavaScript</span>
+      </div>
+    </div>
+    <div class="card fade-in">
+      <div class="card-icon">✅</div>
+      <h3>To-Do List</h3>
+      <p>Add, complete, and delete tasks. Great for practising DOM manipulation.</p>
+      <div class="card-tags">
+        <span class="card-tag">HTML</span>
+        <span class="card-tag">CSS</span>
+        <span class="card-tag">JavaScript</span>
+      </div>
+    </div>
+    <div class="card fade-in">
+      <div class="card-icon">🧮</div>
+      <h3>Calculator</h3>
+      <p>Basic calculator for add, subtract, multiply and divide operations.</p>
+      <div class="card-tags">
+        <span class="card-tag">HTML</span>
+        <span class="card-tag">CSS</span>
+        <span class="card-tag">JavaScript</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="section-title fade-in">Contact <span>Me</span></h2>
+  <div class="contact-box fade-in">
+    <div id="contactForm">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" id="name" placeholder="Your name" />
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" id="email" placeholder="xyz@example.com" />
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea id="message" placeholder="Say hello..."></textarea>
+      </div>
+      <button class="btn-submit" onclick="submitForm()">Send Message 🚀</button>
+    </div>
+    <div class="success-msg" id="successMsg">
+      <span>🎉</span>
+      Thanks! I'll get back to you soon.
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>Vedant Rane · 2026</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
